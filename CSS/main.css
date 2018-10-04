@@ -19,6 +19,33 @@ body{
 header{
     margin-left: 5%;
     margin-right: 5%;
+    margin-top: 2%;
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: antiquewhite;
+    border: 5px;
+    border-color: gray;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    
+}
+
+.top_nav{
+    display: grid;
+    grid-template-columns: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: blue;
+    border: 5px;
+    border-color: gray;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    
+
 }
 
 main{
