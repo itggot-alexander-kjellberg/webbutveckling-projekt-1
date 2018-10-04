@@ -9,18 +9,25 @@ body{
     height: 100%;
     margin: 0;
     display: grid;
-    grid-template-columns: ;
-    grid-template-rows:; 
-    grid-column-gap: ; 
-    grid-row-gap: ;
+    grid-template-columns:10vh, 80vh, 10vh;
+    grid-template-rows:10vh, 80vh, 10vh; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 20px;
 
 }
 
 header{
     margin-left: 5%;
+    margin-right: 5%;
 }
 
 main{
     margin-left: 5%;
+    margin-right: 5%;
 }
 
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
