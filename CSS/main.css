@@ -1,0 +1,26 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.wrapper{
+    background-image: url(../img/nasir.jpg);
+    height: 100%;
+    margin: 0;
+    display: grid;
+    grid-template-columns: ;
+    grid-template-rows:; 
+    grid-column-gap: ; 
+    grid-row-gap: ;
+
+}
+
+header{
+    margin-left: 5%;
+}
+
+main{
+    margin-left: 5%;
+}
+
