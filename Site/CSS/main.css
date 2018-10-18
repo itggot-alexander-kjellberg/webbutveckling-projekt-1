@@ -13,7 +13,7 @@ body{
     grid-template-rows:10vh, 80vh, 80vh; 
     grid-column-gap: 20px; 
     grid-row-gap: 10px;
-
+    
 }
 
 header{
@@ -69,9 +69,9 @@ margin-right: 10px;
 
 
 main{
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 12%;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 8%;
     grid-column: span 1;
     grid-row: span 1;
     display:grid;
@@ -108,7 +108,7 @@ main{
     grid-column-start: 2;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
-    padding: 50 px;
+    padding: 50px;
     margin: 10px;
 }
 
@@ -127,32 +127,16 @@ footer{
     margin-bottom: 15px;
 }
 
-Album Only
-.main{
-    margin-left: 5%;
-    margin-right: 5%; 
-    background-color: rgb(69, 167, 233);
-    
-}
 
 .rubrik1{
-    grid-column-start: 2;
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
-    padding: 50 px;
-    margin: 10px;
+    padding: 50px;
 }
 
 .content1{
     border-top-right-radius: 20%;
     border-bottom-left-radius: 20%;
-    padding: 50 px;
-    margin: 10px;
-}
-.content2{
-    border-top-right-radius: 20%;
-    border-bottom-left-radius: 20%;
     padding: 50px;
- 
 }
-Facts Only
+
