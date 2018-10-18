@@ -56,15 +56,10 @@ footer{
     margin-bottom: 15px;
 }
 .main{
-   margin-left: 5%;
-   margin-right: 5%; 
-   grid-column: span 1;
-   grid-row: span 1;
-   background-color: rgb(69, 167, 233);
-   border-color: gray;
-   box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
-   border-radius: 20px;
-   padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%; 
+    background-color: rgb(69, 167, 233);
+    
 }
 
 .rubrik1{
