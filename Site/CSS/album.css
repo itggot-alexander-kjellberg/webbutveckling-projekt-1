@@ -9,6 +9,10 @@ body{
     height: 100%;
     margin: 0;
     display: grid;
+    grid-template-columns:10vw, 80vw, 10vw;
+    grid-template-rows:50vh, 50vh, 50vh; 
+    grid-column-gap: 20px; 
+    grid-row-gap: 10px;
 }
 
 header{
@@ -23,4 +27,57 @@ header{
     box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
     border-radius: 20px;
     
+}
+.top_nav{
+    display: flex;
+    margin-left: 5%;
+    margin-right: auto;
+    background-color: blue;
+    border-color: gray;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+
+}
+
+footer{
+    margin-left: 5%;
+    margin-right: 5%;
+    grid-column: span 1;
+    grid-row: span 1;
+    background-color: red;
+    border-color: gray;
+    box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
+    border-radius: 20px;
+    padding: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 15px;
+}
+.main{
+   margin-left: 5%;
+   margin-right: 5%; 
+   grid-column: span 1;
+   grid-row: span 1;
+   background-color: rgb(69, 167, 233);
+   border-color: gray;
+   box-shadow: 0px 0px 10px 8px rgba(0,0,0,0.75);
+   border-radius: 20px;
+   padding: 10px;
+}
+
+.rubrik1{
+    grid-column-start: 2;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    padding: 50 px;
+    margin: 10px;
+}
+
+.content1{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    padding: 50 px;
+    margin: 10px;
 }
