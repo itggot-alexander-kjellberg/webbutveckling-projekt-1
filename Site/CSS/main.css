@@ -127,3 +127,27 @@ footer{
     margin-bottom: 15px;
 }
 
+Album Only
+.main{
+    margin-left: 5%;
+    margin-right: 5%; 
+    background-color: rgb(69, 167, 233);
+    
+}
+
+.rubrik1{
+    grid-column-start: 2;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    padding: 50 px;
+    margin: 10px;
+}
+
+.content1{
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    padding: 50 px;
+    margin: 10px;
+}
+
+Facts Only
